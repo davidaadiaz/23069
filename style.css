@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-menu{
+    background-color: #474953;
+}
+.navbar{
+    padding: 0 !important;
+}
+.nav-link li{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+ .container-menu img{
+    width: 100px;
+ }
+ .NavLink li:last-child a{
+    color: #0cc449de !important; 
+ }
+ .nav-item a:hover{
+    filter: brightness(0.7);
+ }
+.link:hover{
+    color: #0202025e;
+}
+
+.container-main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./img/ba3.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}   
+.container-principal{
+    font-size: 22px;
+    color: white;
+    width: 50vw;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 5vw;
+}
+.container-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-buttons .btn{
+    margin-left: 2vw;
+    width: 10vw;
+    height: 10vh;
+}
+
+.oradores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+}
+.js{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+.react{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+.negocios{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+.startups{
+    background-color: red;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;   
+}
+.container-info{
+    display: flex;
+}
+.container-info img{
+    width: 100%;
+}
+.img-info{
+    background-color: rgb(55, 55, 55);
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5vh;
+    padding-left: 4vh;
+    padding-top: 3vh;
+}
+.img-info h1{
+    font-size: 2em;
+}
+.img-info h2{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.img-info .btn{
+    margin-left: 0;
+    width: 10vw;
+    height: 8vh;
+}
+
+.container-contact {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.wrap-contact {
+    width: 790px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
+}
+.contact-form{
+    width: 100%;
+}
+.container-contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3vh;
+    font-size: 2em;
+}
+.contact-form-title{
+    font-family: Poppins-Bold;
+    font-size: 0.5em;
+    color: #333;
+    text-align: center;
+}
+.contact-form-title2{
+    font-size: 1.5em;
+}
+.row{
+    display: flex;
+}
+.col{
+    margin: 1vw;
+}
+.form-floating{
+    padding-bottom: 10px;
+}
+.container-contact-form-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+}
+.wrap-contact-form-btn{
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.contact-form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: #8acf49;
+    color: white;
+    border-width: 0;
+}
+.validate-input {
+    position: relative;
+}
+
+.footer-content{
+    display: flex;
+    background-color: rgb(30, 60, 75);
+    color: white;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.nav-item a:hover{
+    filter: brightness(0.7);
+}
+
+@media (min-width: 578px) and (max-width: 992px) {
+    .cac{
+        width: 200px !important;
+    }
+    .nav-text{
+        font-size: 36.4px;
+    }
+    .nav-link{
+        font-size: 2.5rem !important;
+        margin: 1rem 0;
+    }
+    .navbar-toggler-icon{
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .p{
+        font-size: 40px;
+    }
+    .main-content{
+        height: 100vh;
+    }
+    .main-text{
+        padding-left: 18vw;
+        padding-right: 10vw;
+    }
+    .ConfBsAs{
+        font-size: 4.5rem;
+    }
+    .oradores span{
+        font-size: 2.5rem;
+    }
+    .card-body span{
+        font-size: 2rem;
+    }
+
+    .btn{
+        font-size: 35px !important;
+        padding: 1rem 0.5rem !important;
+    }
+    h2{
+        font-size: 3.5rem !important;
+    }
+    h5{
+        font-size: 2.5rem !important;
+    }
+    .form-control{
+        margin-top: 20px;
+        font-size: 2.5rem !important;
+    }
+}
+
+@media only screen and (min-device-height: 320px) 
+                   and (max-device-height: 570px) 
+                   and (orientation: landscape) {
+                    p{
+                        font-size: 30px;
+                    }
+                    .main-content{
+                        height: 120vh;
+                    }
+                    .main-text{
+                        padding-left: 18vw;
+                        padding-right: 10vw;
+                        display: flex;
+                        justify-content: start;
+                    }
+}
