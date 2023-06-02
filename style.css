@@ -212,8 +212,25 @@
     justify-content: center;
     margin-top: 5vh;
 }
+
 .nav-item a:hover{
     filter: brightness(0.7);
+}
+
+.card-body{
+    transition: 1s all;
+}
+.card-body:hover{
+    transform: scale(1.05);
+}
+
+.d-grid button{
+    transition: 1s all;
+}
+
+.d-grid button:hover{
+    transform: scale(1.05);
+    background-color: green !important;
 }
 
 @media (min-width: 578px) and (max-width: 992px) {
