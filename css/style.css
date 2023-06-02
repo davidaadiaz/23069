@@ -32,7 +32,7 @@
 }
 
 .container-main{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/img/ba1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/img/ba3.jpg");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
