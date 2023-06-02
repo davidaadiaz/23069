@@ -32,7 +32,7 @@
 }
 
 .container-main{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./img/ba3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/img/ba3.jpg") !important;
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,22 +215,6 @@
 
 .nav-item a:hover{
     filter: brightness(0.6);
-}
-
-.card-body{
-    transition: 1s all;
-}
-.card-body:hover{
-    transform: scale(1.05);
-}
-
-.d-grid button{
-    transition: 1s all;
-}
-
-.d-grid button:hover{
-    transform: scale(1.05);
-    background-color: green !important;
 }
 
 @media (min-width: 578px) and (max-width: 992px) {
